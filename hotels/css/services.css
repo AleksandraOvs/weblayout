@@ -1,0 +1,87 @@
+.services-section-heading{
+  margin-bottom: 0;
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.services{
+  margin-top: 50px;
+}
+
+.services-item {
+  padding-top: 170px;
+  padding-bottom: 17px;
+  margin-top: 25px;
+  max-width: 49%;
+  border-radius: 12px;
+  transition: transform .3s ease-in-out;
+}
+
+.services-item:hover{
+  transform: scale(1.02);
+}
+.services-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.services-list li {
+  background-color: #fff;
+}
+
+.services-item:nth-child(2n+1){
+  margin-right: 2%;
+}
+
+.services-heading {
+  margin: 30px 0 0 45px;
+  font-size: 22px;
+  color: #666;
+}
+
+
+.services-text {
+  width: 70%;
+  margin-top: 5px;
+  margin-left: 45px;
+  line-height: 32px;
+}
+
+.services-link {
+  color: #cc9933;
+  font-weight: 400;
+}
+.services-link::after{
+content: "";
+   background: url('../img/arrow.svg') no-repeat;
+   background-position-y: bottom;
+   margin-left: 15px;
+   width:15px;
+   height: 20px;
+   position: absolute;
+   transition: transform .3s ease-in-out;
+}
+
+.services-link:hover::after{
+  transform:translateX(20px);
+}
+
+.services-exclusive {
+  background: url('../img/pic01.jpg') no-repeat;
+}
+
+.services-rent {
+  background: url('../img/table.jpg') no-repeat;
+}
+
+.services-swim {
+  background: url('../img/swpool.jpg') no-repeat;
+}
+
+.services-parking {
+  background: url('../img/cars.jpg') no-repeat;
+}

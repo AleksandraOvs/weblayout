@@ -1,0 +1,107 @@
+.footer {
+    margin: 0 auto;
+    width: 1170px;
+    margin-top: 23px;
+    margin-bottom: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    background: url('../img/sun.png') no-repeat;
+    background-position: bottom;
+    background-position-x: 80%;
+    background-color: #333333;
+    padding: 40px 50px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.footer-content a {
+    display: block;
+    color: #cc9933
+}
+
+.footer-content p {
+    margin-left: 0;
+}
+
+.footer-info {
+    flex: 0 0 30%;
+    line-height: 32px;
+}
+
+.footer-info-notoff{
+    margin-top: 35px;
+}
+
+.footer-info p:first-child{
+    margin: 0;
+}
+.footer-contacts {
+    flex: 0 0 52%;
+    list-style: none;
+    margin: 0;
+}
+
+.footer-contacts-item:not(:first-child){
+    margin-top: 27px;
+    line-height: 24px;
+}
+
+.footer-contacts-item:first-child{
+    line-height: 32px;
+}
+
+.footer-contacts-item{
+    transition: text-decoration .3s ease-in-out;
+}
+
+.footer-contacts-item a:hover{
+    text-decoration: underline;
+}
+
+.footer-links {
+    margin-top: 7px;
+    list-style: none;
+}
+
+.footer-links a {
+    margin-bottom: 15px;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    transition: padding-right .3s ease-in-out;
+}
+
+.footer-links li a:hover{
+    transform: translateY(-5px); 
+}
+.privacy-policy {
+    margin-top: 35px;
+}
+
+.privacy-policy:hover, .footer-contacts-item a:hover{
+    text-decoration: underline;
+    transition: text-decoration .3s ease-in-out;
+}
+
+.tripadv {
+    background: url('../img/tripadvisor.png') no-repeat;
+}
+
+.twitter {
+    background: url('../img/twitter.png') no-repeat;
+}
+
+.facebook {
+    background: url('../img/facebook.png') no-repeat;
+}
+
+.vk {
+    background: url('../img/vk.png') no-repeat;
+}
+
+.google {
+    background: url('../img/google.png') no-repeat;
+}

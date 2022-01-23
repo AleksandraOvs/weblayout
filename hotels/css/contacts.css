@@ -1,0 +1,141 @@
+.contacts-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacts {
+    margin-top: 45px;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.contacts-heading {
+    margin-top: 65px;
+}
+
+.contacts-info {
+    flex: 0 0 40%;
+    padding: 25px 45px 45px 45px;
+    background: #fff;
+    border-radius: 12px;
+    font-style: normal;
+}
+
+.contacts-info a {
+    display: block;
+    color: #cc9933;
+}
+
+.contact-form-container {
+    flex: 0 0 60%;
+}
+
+.contact-form-container fieldset {
+    margin-top: 35px;
+    border: none;
+}
+
+.form-heading {
+margin-left: 0;
+margin-bottom: 10px;
+font-size: 40px;
+font-weight: 400;
+}
+
+.contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contacts-table-row{
+    border-bottom: 1px solid #ccc;
+    line-height: 24px;
+}
+
+.contacts-table p{
+    margin: 0;
+    line-height: 24px;
+}
+.row1, .row2{
+    /* padding: 10px 0; */
+    padding: 25px 0;
+}
+.row1 {
+    width: 37%;
+    vertical-align: top;
+}
+
+.row1 p {
+    font-size: 22px;
+    color: #666;
+    font-weight: 700;
+}
+
+.row2 a:hover{
+    text-decoration: underline;
+    transition: text-decoration .3s ease-in-out;
+}
+
+.contact-form-container {
+    text-align: center;
+}
+
+.contact-form {
+    width: 340px;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.contact-form-button {
+    width: 100%;
+    padding: 25px 30px;
+    margin-top: 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    background: #cc9933;
+    color: white;
+    transition: transform .2s ease-in-out;
+}
+
+.contacts-btn {
+    margin-top: 40px;
+    background: transparent;
+    color: #cc9933;
+    border-radius: 12px;
+    border: 1px solid #cc9933;
+    transition: transform .3s ease-in-out;
+}
+
+.contacts-btn:hover{
+    background: #cc9933;
+    color: white;
+    transform: scale(1.05);
+}
+.contact-form input {
+    background: #fff;
+    margin-top: 25px;
+    padding: 27px 20px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.input {
+    border-radius: 12px;
+}
+
+.contact-form textarea {
+    border: none;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.form-btn {
+    margin-top: 20px;
+    background: #cc9933;
+    color: #fff;
+    width: 100%;
+}
+

@@ -1,0 +1,14 @@
+.about{
+    margin: 0 auto;
+    margin-top: 57px;
+    width: 1170px;
+  }
+
+  .about-heading{
+    margin: 0 0 0 40px;
+  }
+.about-text{
+    width: 895px;
+    margin-left: 40px;
+    line-height: 32px;
+}

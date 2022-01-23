@@ -1,0 +1,273 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-size: 18px;
+    font-family: 'Gilroy', sans-serif;
+    background: #fff;
+}
+.header, .first, .about-me, .skills,.portfolio, .contacts, .swiper-container{
+    max-width: 943px;
+}
+section{
+    margin: 0 auto;
+    text-align: center;
+}
+a{
+    color: #000;
+}
+
+.container{
+    width: 100%;
+}
+
+h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 27px;
+}
+
+.header{
+    margin: 0 auto;
+   
+}
+
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    color: #828282;
+    padding-top: 33px;
+    padding-bottom: 37px;
+}
+
+.nav-item{
+    text-decoration: none;
+    color: #828282;
+    font-weight: bold;
+    transition: color .3s ease-in-out;
+}
+
+.nav-item:hover{
+      color: #000;
+}
+
+.nav-menu:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #828282;
+}
+
+.header-about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+.logo{
+    flex-basis: 13%;
+    align-self:flex-end;
+}
+.logo a{
+    font-size: 47px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+.burger{
+    display: none;
+    width: 33px;
+    height: 19px;
+    background: url('img/burger.svg');
+}
+
+.header-about-spec{
+    flex-basis: 16.5%;
+    line-height: 21px;
+    align-self: flex-end;
+}
+
+.lang{
+    flex-basis: 7%;
+    font-size: 16px;
+    transform: rotate(-90deg);
+    align-self:center;
+}
+
+main.container{
+    margin-top: 45px;
+    }
+.first{
+    padding-bottom: 105px;
+}
+.swiper-container{
+    height: 387px;
+}
+.grey-container{
+    background-color: #f6f6f6;
+}
+
+.about-me{
+    padding: 115px 17% 65px 17%;
+    text-align: center;
+}
+
+.about-me-text{
+    margin-bottom: 45px;
+    line-height: 21px;
+}
+
+.skills{
+    padding-bottom: 110px;
+}
+.skills-head{
+    margin-top: 85px;
+}
+
+.skills-text{
+    margin-top: 63px;
+}
+
+.skills-programs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 87px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.skills-programs-item{
+    list-style: none;
+    text-align: center;
+}
+
+.program-name{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #828282;
+}
+
+.stars{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+
+.star{
+    list-style: none;
+    margin-right: 12px;
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 102px;
+}
+.portfolio-head{
+    margin-top: 110px;
+}
+.work{
+    margin-top: 27px;
+}
+.work2, .work3{
+    margin-top: 102px;
+}
+.work-img{
+    transition: transform .3s ease-out;
+}
+.work-img:hover{
+    transform: scale(1.05);
+    filter: grayscale(80%);
+    outline: 1px solid #000;
+}
+.portfolio-link{
+    margin-top: 40px;
+    display: block;
+    transition: transform .3s ease-out;
+}
+.portfolio-link:hover{
+    text-decoration: none;
+    color: #828282;
+    transform: scale(1.05);
+}
+
+.contacts{
+    padding-bottom: 110px;
+}
+.contacts-head{
+    margin-top: 112px;
+}
+.contacts-text{
+    width: 30%;
+    margin: 0 auto;
+}
+
+.send-message{
+    padding: 12px 30px;
+    margin-top: 32px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    transition: transform, background-color .3s ease-in;
+}
+
+.send-message:hover{
+    background-color: #828282;
+    transform: scale(.95);
+}
+
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 83px;
+    width: 35%;
+    justify-content: space-between;
+    transition: transform .3s ease-out;
+}
+
+.social-link-item:hover{
+    transform: scale(1.2);
+}
+
+.social-link-item{
+    width: 41px;
+    height: 41px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.social-links a:nth-child(1){
+    background-image: url('img/link.png');
+}
+
+.social-links a:nth-child(2){
+    background-image: url('img/insta.png');
+}
+
+.social-links a:nth-child(3){
+    background-image: url('img/behance.png');
+}
+
+.social-links a:nth-child(4){
+    background-image: url('img/dribbble.png');
+}
+
+.links-text{
+    flex-basis: 100%;
+    font-size: 14px;
+    margin-top: 45px;
+    color: #828282;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-weight: 400; 
+        /* насыщенность шрифта */
+    font-style: normal;
+        /* начертание шрифта - обычное */
+    font-family: 'Muller';
+        /* семейство используемого шрифта */
+    font-display: swap;
+        /* способ загрузки шрифта, Swap - пока идет загрузка указанного шрифта, включается резервный. После загрузки нужного шрифта шрифт переключится   */
+    src: 
+        local('Muller Regular'),
+        url('../fonts/MullerRegular.woff2') format('woff2'), url('../fonts/MullerRegular.woff2') format('woff2'),
+        url('../fonts/MullerRegular.woff') format('woff'), url('../fonts/MullerRegular.woff') format('woff');
+        /* расширение компьютерного файла шрифта  Web Open Font Format, использующий алгоритм сжатия. WOFF 2.0 похож на формат WOFF 1.0, но имеет улучшенное сжатие, чтобы уменьшить использование пропускной способности сети. */
+  }
+
+  
+@font-face {
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Muller';
+    font-display: swap;
+    src: 
+        local('Muller Bold'),
+        url('../fonts/MullerBold.woff2') format('woff2'), url('../fonts/MullerBold.woff2') format('woff2'),
+        url('../fonts/MullerBold.woff') format('woff'), url('../fonts/MullerBold.woff') format('woff');
+  }

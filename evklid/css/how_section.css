@@ -1,0 +1,96 @@
+/*********HOW_SECTION*********/
+
+.how-heading {
+  margin-top: 100px;
+  font-weight: 400;
+}
+
+.steps {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.step-link {
+  display: block;
+  margin-right: 90px;
+  font-size: 18px;
+  line-height: 22px;
+  background: transparent;
+  border: none;
+  color: #333;
+  transition: color .3s ease-in-out;
+}
+
+.step-link:hover {
+  color: #FF9900;
+}
+
+.tabs {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs div:nth-child(1) {
+  background-image: url('../img/pic12.jpg');
+}
+
+.tabs div:nth-child(2) {
+  background-image: url('../img/pic13.jpg');
+}
+
+.tabs div:nth-child(3) {
+  background-image: url('../img/pic14.jpg');
+}
+
+.tabs div:nth-child(4) {
+  background-image: url('../img/pic15.jpg');
+}
+
+.tab-content {
+  display: none;
+  margin-top: 45px;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.tab-content-active {
+  display: block;
+}
+
+.tab-heading {
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.tab-text {
+  width: 42.4%;
+  line-height: 32px;
+}
+
+.stroke-button:hover {
+  background: #333;
+  color: #fff;
+}
+
+.more-link {
+  display: inline-block;
+  margin-top: 60px;
+  padding: 19px 39px;
+  background: #FF9900;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #FF9900;
+}
+
+.contract {
+  display: inline-block;
+  margin-left: 26px;
+  padding: 20px 39px;
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid #333;
+  transition: all .3s ease-in-out;
+}

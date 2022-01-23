@@ -1,0 +1,184 @@
+@media (max-width: 992px){
+    .header{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .work-img{
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .lang{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .burger.active{
+        background: url('img/burger-active.svg');
+        z-index: 6;
+    }
+    .nav-menu{
+        position: absolute;
+        left: -1000px;
+    }
+    .nav-menu.active{
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0 3% 7% 7%;
+        z-index: 5;
+        align-items: flex-start;
+        background: #fff;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .nav-item.active{
+        font-size: 34px;
+        margin-bottom: 15px;
+        font-weight: normal;
+    }
+    .header.active{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .lang.active{
+        display: block;
+        position: absolute;
+        font-size: 34px;
+        z-index: 7;
+        flex-basis: 100%;
+        bottom: 20px;
+        right: 20px;
+        transform: rotate(0deg);
+    }
+    .logo{
+        order: 1;
+        align-self: flex-start;
+    }
+    .burger{
+        order: 2;
+        align-self: flex-start;
+    }
+    .header-about{
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    .header-about-spec{
+        order: 3;
+        flex-basis: 100%;
+        margin-top: 20px;
+        padding-right: 50%;
+    }
+    .star img{
+        width: 10px;
+    }
+    .skills-programs{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .program-name{
+        width: 100%;
+    }
+}
+@media(max-width: 576px){
+    .skills-programs{
+        flex-direction: column;
+    }
+    .stars{
+        width: 20%;
+        margin: 0 auto;
+    }
+    .skills-programs-item{
+        margin-top: 50px;
+    }
+    .contacts-text{
+        width: 50%;
+    }
+    .social-links{
+        width: 50%;
+    }
+}
+
+@media (max-width: 375px){
+    .header, .first, .about-me, .skills,.portfolio, .contacts{
+        max-width: 316px;
+    }
+    /* .header{
+        padding-left: 30px;
+        padding-right: 30px;
+    } */
+    .header{
+        padding-top: 30px;
+    }
+    .header-about{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    main.container{
+        margin-top: 40px;
+    }
+    .swiper-container{
+        height: 487px;
+    }
+    .first {
+        padding-bottom: 75px;
+    }
+    .about-me{
+        padding: 75px 0 35px 0;
+    }
+    .about-me h2{
+        margin-bottom: 37px;
+    }
+    .skills{
+        padding-bottom: 120px;
+    }
+    .skills-head {
+        margin-top: 82px;
+    }
+    .skills-text{
+        margin-top: 40px;
+    }
+    .skills-programs{
+        padding-left: 0;
+        padding-right: 0;
+        margin-top:  0;
+    }
+    
+    .skills-programs-item {
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+    .program-name{
+        width: 50%;
+    }
+    .stars{
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 40px;
+        
+    }
+    .work-img{
+        max-width: 316px;
+    }
+    .portfolio-head {
+        margin-top: 75px;
+    }
+    .work {
+        margin-top: 64px;
+    }
+    .portfolio-link {
+        margin-top: 33px;
+        margin-bottom: 13px;
+    }
+    .contacts-text{
+        width: 100%;
+    }
+    .social-links{
+        width: 100%;
+    }
+} 

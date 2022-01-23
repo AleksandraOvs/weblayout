@@ -1,0 +1,77 @@
+/*********HEADER***********/
+
+.header {
+  padding-top: 15px;
+  padding-bottom: 11px;
+  box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+.header.active{
+  position: absolute;
+  z-index: 10;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  margin-bottom: 0;
+  font-size: 48px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.burger {
+  display: none;
+  background: url('../img/burger.svg') no-repeat;
+  border: none;
+  width: 30px;
+  height: 23px;
+  transition: all .3s ease-in-out;
+}
+
+.nav-list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav-item {
+  position: relative;
+  display: block;
+  margin: auto 0;
+  font-weight: 700;
+  margin-right: 80px;
+  transition: content .3s ease-in-out;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #333;
+  transition: color .3s ease-in-out;
+}
+
+.link:hover {
+  color: #ff9900;
+}
+
+.search-button {
+  width: 24px;
+  height: 26px;
+  margin-right: 10px;
+  margin: auto 0;
+  border: none;
+  background: transparent;
+  background-image: url('../img/search.svg');
+  background-repeat: no-repeat;
+}
+
+.search-button:hover {
+  background-image: url('../img/Search-hover11.svg');
+}

@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f1f1f1;
+  font-family: 'Muller', 'Arial', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.about-heading{
+  margin-left: 45px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border: none;
+}
+
+.fixed-container {
+  margin: 0 auto;
+  width: 1170px;
+}

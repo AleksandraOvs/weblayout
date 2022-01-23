@@ -1,0 +1,86 @@
+.container {
+  position: relative;
+}
+
+.swiper-wrapper {
+  position: absolute;
+  height: 700px;
+}
+
+.first-block {
+  position: relative;
+  padding: 105px 75px 91px 78px;
+  z-index: 6;
+  width: 80%;
+}
+
+.first-block-heading {
+  font-size: 73px;
+  font-weight: 700;
+  width: 70%;
+  line-height: 86px;
+  color: white;
+}
+
+.first-block-description {
+  margin-top: 20px;
+  width: 65%;
+  font-size: 23.4581px;
+  font-weight: 700;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.order-calc {
+  padding: 27px 39px;
+  margin-top: 95px;
+  margin-left: 3px;
+  border: none;
+  font-size: 23px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #FF9900;
+}
+
+.fill-button:hover {
+  background: rgba(255, 153, 0, 0.6);
+  transition: all .3s ease-in-out;
+}
+
+.fill-button:active {
+  background-color: #E1670E;
+}
+
+.slide1 {
+  background: url(../img/apartment.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slide2 {
+  background: url(../img/building.jpg) no-repeat;
+  background-size: cover;
+}
+
+.slide3 {
+  background: url(../img/low-angle.jpg) no-repeat;
+  background-size: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, .5);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+  bottom: 30px;
+}
